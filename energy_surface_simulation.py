@@ -82,11 +82,3 @@ class energy_surface_simulation():
         im = ax.imshow(self.population_matrix, interpolation=interpol, origin="lower", 
                 extent=[x_range[0], x_range[1], y_range[0], y_range[1]])
         fig.colorbar(im, ax=ax)
-        
-
-
-
-
-
-
-
